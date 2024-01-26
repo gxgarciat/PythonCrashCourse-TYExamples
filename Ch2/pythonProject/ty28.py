@@ -3,3 +3,4 @@
 
 filename = input("Enter file name: ")
 print(f"The file name without the file extension is: {filename.removesuffix('.txt')}")
+print("Thank you for using this program.")
