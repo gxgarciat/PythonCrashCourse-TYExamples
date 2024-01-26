@@ -6,4 +6,6 @@
 personName = input("What is your name?: ")
 print(personName)
 
+print(f"Your name is: {personName}. \n Your name without lspace is {personName.lstrip()}")
+
 
