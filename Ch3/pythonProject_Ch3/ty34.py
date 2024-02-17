@@ -6,6 +6,9 @@ from random import randint
 
 guessList = ["Gandhi", "Napoleon", "Simon Bolivar", "Messi"]
 
-rd1 = randint(0, len(guessList) - 1)
+#rd1 = randint(0, len(guessList) - 1)
 
-print(f'Hi {guessList[rd1]}, when are you available? I would like to invite you to dinner.')
+print(f'Hi {guessList[0]}, when are you available? I would like to invite you to dinner.')
+print(f'Hi {guessList[1]}, when are you available? I would like to invite you to dinner.')
+print(f'Hi {guessList[2]}, when are you available? I would like to invite you to dinner.')
+print(f'Hi {guessList[3]}, when are you available? I would like to invite you to dinner.')
