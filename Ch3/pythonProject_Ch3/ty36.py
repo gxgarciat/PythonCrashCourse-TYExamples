@@ -25,9 +25,9 @@ newPerson1 = input("Who would you like to invite first? ")
 newPerson2 = input("Who would you like to invite second? ")
 newPerson3 = input("Who would you like to invite third? ")
 guessList.insert(0,newPerson1)
-guessList.insert(0,newPerson1)
+guessList.insert(round(len(guessList)/2)+1,newPerson2)
 guessList.append(newPerson3)
-
+print(len(guessList))
 
 print("")
 print("------Dinner invitation-------")
@@ -35,3 +35,6 @@ print(f'Hi {guessList[0]}, when are you available? I would like to invite you to
 print(f'Hi {guessList[1]}, when are you available? I would like to invite you to dinner.')
 print(f'Hi {guessList[2]}, when are you available? I would like to invite you to dinner.')
 print(f'Hi {guessList[3]}, when are you available? I would like to invite you to dinner.')
+print(f'Hi {guessList[4]}, when are you available? I would like to invite you to dinner.')
+print(f'Hi {guessList[5]}, when are you available? I would like to invite you to dinner.')
+print(f'Hi {guessList[6]}, when are you available? I would like to invite you to dinner.')
