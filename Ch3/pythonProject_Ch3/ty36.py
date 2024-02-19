@@ -21,6 +21,7 @@ print(f'Hi {guessList[3]}, when are you available? I would like to invite you to
 print("---------------------------------")
 print(f"We found a bigger table! And we would like to invite three more people!")
 print("---------------------------------")
+# Part 2 to 4
 newPerson1 = input("Who would you like to invite first? ")
 newPerson2 = input("Who would you like to invite second? ")
 newPerson3 = input("Who would you like to invite third? ")
@@ -29,6 +30,7 @@ guessList.insert(round(len(guessList)/2)+1,newPerson2)
 guessList.append(newPerson3)
 print(len(guessList))
 
+# Part 5
 print("")
 print("------Dinner invitation-------")
 print(f'Hi {guessList[0]}, when are you available? I would like to invite you to dinner.')
