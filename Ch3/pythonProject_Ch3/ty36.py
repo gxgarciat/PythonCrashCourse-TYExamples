@@ -19,10 +19,16 @@ print(f'Hi {guessList[1]}, when are you available? I would like to invite you to
 print(f'Hi {guessList[2]}, when are you available? I would like to invite you to dinner.')
 print(f'Hi {guessList[3]}, when are you available? I would like to invite you to dinner.')
 print("---------------------------------")
-print(f"We heard that {guessList[rd1]} won't be able to dinner. We will miss you {guessList[rd1]}!")
+print(f"We found a bigger table! And we would like to invite three more people!")
 print("---------------------------------")
-newPerson = input("Who would you like to invite? ")
-guessList[rd1] = newPerson
+newPerson1 = input("Who would you like to invite first? ")
+newPerson2 = input("Who would you like to invite second? ")
+newPerson3 = input("Who would you like to invite third? ")
+guessList.insert(0,newPerson1)
+guessList.insert(0,newPerson1)
+guessList.append(newPerson3)
+
+
 print("")
 print("------Dinner invitation-------")
 print(f'Hi {guessList[0]}, when are you available? I would like to invite you to dinner.')
