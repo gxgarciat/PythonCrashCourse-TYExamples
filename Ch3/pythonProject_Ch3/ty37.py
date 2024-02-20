@@ -3,4 +3,7 @@
 # 1. Start your program from Exercise 3-6. Add a new line that prints a message saying that you can
 #    invite only two people for dinner
 # 2. Use pop() to remove guests from uyour list one at a time until only two names remain in your list.
-#    Each time
+#    Each time you pop a name in from your list, print a message to that person letting them know you
+#    are sorry you can't invite them to dinner
+# 3. Print a message to each of the two people still on your list, letting them know they're still invited
+# 4. Use del to remove the last two names from your list, so you have an
