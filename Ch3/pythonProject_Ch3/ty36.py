@@ -6,7 +6,6 @@
 # 4. Use append() to add one new guest to the end of your list
 # 5. Print a new set of invitations, one for each person in your list.
 
-
 from random import randint
 
 # Part 1
