@@ -40,4 +40,3 @@ print(f'Hi {guessList[4]}, when are you available? I would like to invite you to
 print(f'Hi {guessList[5]}, when are you available? I would like to invite you to dinner.')
 print(f'Hi {guessList[6]}, when are you available? I would like to invite you to dinner.')
 
-#
